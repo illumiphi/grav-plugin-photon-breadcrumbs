@@ -1,4 +1,4 @@
-name: photon ✴ Breadcrumbs
+name: photon ✴ WIDGET Breadcrumbs
 version: 0.1.0
 description: a breaking extension of the Grav **Breadcrumbs** plugin 1.5.1 provides a simple method to display the depth of your content/navigation structure.
 icon: asterisk
@@ -8,27 +8,17 @@ author:
   url: http://photon-platform.net
 homepage: https://github.com/photon-platform/grav-plugin-breadcrumbs
 demo: http://photon-platform.net
-keywords: breadcrumbs, plugin, navigation, depth
+keywords: photon, plugin, widget, breadcrumbs, navigation, depth
 bugs: https://github.com/photon-platform/grav-plugin-breadcrumbs/issues
 license: MIT
 
 form:
   validation: strict
   fields:
+
     enabled:
       type: toggle
       label: Plugin status
-      highlight: 1
-      default: 1
-      options:
-        1: Enabled
-        0: Disabled
-      validate:
-        type: bool
-
-    show_all:
-      type: toggle
-      label: Show even with one item
       highlight: 1
       default: 1
       options:
@@ -42,51 +32,6 @@ form:
       label: Use built in CSS
       highlight: 1
       default: 1
-      options:
-        1: Enabled
-        0: Disabled
-      validate:
-        type: bool
-
-    include_home:
-      type: toggle
-      label: Include Home
-      highlight: 1
-      default: 1
-      options:
-        1: Enabled
-        0: Disabled
-      validate:
-        type: bool
-
-    include_current:
-      type: toggle
-      label: Include Current Page
-      highlight: 1
-      default: 1
-      options:
-        1: Enabled
-        0: Disabled
-      validate:
-        type: bool
-
-    icon_home:
-      type: text
-      size: medium
-      label: Icon Home
-      default: ''
-
-    icon_divider_classes:
-      type: text
-      size: medium
-      label: Icon Divider Classes
-      default: 'fa fa-angle-right'
-
-    link_trailing:
-      type: toggle
-      label: Link Trailing
-      highlight: 1
-      default: 0
       options:
         1: Enabled
         0: Disabled
