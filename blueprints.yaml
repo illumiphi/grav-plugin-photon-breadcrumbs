@@ -3,9 +3,9 @@ version: 0.1.0
 description: a breaking extension of the Grav **Breadcrumbs** plugin 1.5.1 provides a simple method to display the depth of your content/navigation structure.
 icon: asterisk
 author:
-  name: illumiphi
-  email: phi@illumiphi.com
-  url: http://photon-platform.net
+  name: phi ARCHITECT
+  email: phi@photon-platform.net
+  url: httpa://photon-platform.net
 homepage: https://github.com/photon-platform/grav-plugin-breadcrumbs
 demo: http://photon-platform.net
 keywords: photon, plugin, widget, breadcrumbs, navigation, depth
