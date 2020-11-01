@@ -6,7 +6,7 @@ author:
   name: phi ARCHITECT
   email: phi@photon-platform.net
   url: httpa://photon-platform.net
-homepage: https://github.com/photon-platform/grav-plugin-breadcrumbs
+homepage: https://github.com/photon-platform/grav-plugin-photon-breadcrumbs
 demo: http://photon-platform.net
 keywords: photon, plugin, widget, breadcrumbs, navigation, depth
 bugs: https://github.com/photon-platform/grav-plugin-breadcrumbs/issues
